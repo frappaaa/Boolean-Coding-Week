@@ -6,79 +6,84 @@ blue: rgb(52,75,201);
 */
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(210, 239, 232);
+    background-color: rgb(210, 239, 232);
+    font-family: 'Inter', sans-serif;
 }
 
 .container {
-  max-width: 540px;
-  margin: 0 auto;
+    max-width: 540px;
+    margin: 0 auto;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 0;
 }
 
 h1 {
-  color: #fff;
-  text-transform: uppercase;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
 }
 
 .panel {
-  padding: 16px;
-  border-radius: 16px;
-  background-color: rgb(95, 198, 173);
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(95, 198, 173);
 }
 
 .empty-list-message {
-  text-align: center;
-  font-weight: bold;
-  font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 16px;
 }
 
 .todo-item {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  margin: 16px 0;
-  border-radius: 16px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 16px 0;
+    border-radius: 16px;
 }
 
 .todo-text {
-  padding: 16px;
+    padding: 16px;
 }
 
 .todo-check {
-  cursor: pointer;
-  padding: 16px;
-  border-radius: 16px 0 0 16px;
-  background-color: rgb(217, 255, 102);
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 16px 0 0 16px;
+    background-color: rgb(217, 255, 102);
 }
 
 .add-todo {
-  display: flex;
+    display: flex;
+    gap: 16px;
 }
 
 input {
-  font-size: 16px;
-  padding: 16px;
-  border-radius: 8px;
-  border: none;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
 }
 
 button {
-  cursor: pointer;
-  padding: 16px;
-  border-radius: 16px;
-  background-color: rgb(217, 255, 102);
-  border: none;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(217, 255, 102);
+    border: none;
 }
