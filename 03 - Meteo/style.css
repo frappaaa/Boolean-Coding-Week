@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxs;
+}
+
+body {
+  padding: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(234, 237, 240);
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+input {
+  font-family: "Inter", sans-serif;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
