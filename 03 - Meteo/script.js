@@ -19,7 +19,7 @@ async function onSuccess() {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
 
-  const API_KEY = "a66a460e9767dbb6554509b9ff702774";
+  const API_KEY = "1b9a051129a7afcc732aaeb6795235de";
   const units = "metric";
   const lang = "it";
 
