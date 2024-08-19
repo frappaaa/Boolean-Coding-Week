@@ -23,7 +23,7 @@ async function onSuccess(position) {
   const units = "metric";
   const lang = "it";
 
-  const endpoint = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=${units}&lang=${lang}`;
+  const endpoint = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=${units}&lang=${lang}`;
 
   const response = await fetch(endpoint);
   const data = await response.json();
