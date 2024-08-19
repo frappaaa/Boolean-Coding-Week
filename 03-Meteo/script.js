@@ -15,7 +15,7 @@ function onError() {
   htmlElement.className = "";
 }
 
-async function onSuccess() {
+async function onSuccess(position) {
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
 
